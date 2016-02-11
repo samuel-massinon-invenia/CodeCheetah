@@ -1,2 +1,0 @@
-# CodeCheetah
-code performance comparison
