@@ -11,13 +11,14 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass'
-gem 'turbolinks' 
+gem 'turbolinks'
 
 group :development, :test do
   gem 'byebug'
   gem 'pry',        '0.9.12.6', require: false
   gem 'pry-byebug', '1.3.1',    require: false
   gem 'spring'
+  gem 'rspec-rails', '~> 3.0'
 end
 
 
