@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  score: 1.5
+  elapsed_time: 1
+  benchmark_report_id: 
+
+two:
+  name: MyString
+  score: 1.5
+  elapsed_time: 1
+  benchmark_report_id: 
