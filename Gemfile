@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'codecov', :require => false, :group => :test
 
 gem 'rails', '4.2.5.1'
 gem 'pg', '~> 0.15'
