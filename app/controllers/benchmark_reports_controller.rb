@@ -1,0 +1,3 @@
+class BenchmarkReportsController < ApplicationController
+
+end

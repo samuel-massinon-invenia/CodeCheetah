@@ -1,3 +1,0 @@
-class BenchmarkResultController < ApplicationController
-
-end
