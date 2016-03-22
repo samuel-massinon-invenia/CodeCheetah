@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
+  name: result_one
   score: 1.5
   elapsed_time: 1
-  benchmark_report_id: 
+  benchmark_report_id: 1
 
 two:
-  name: MyString
-  score: 1.5
+  name: result_two
+  score: 2
   elapsed_time: 1
-  benchmark_report_id: 
+  benchmark_report_id: 1
