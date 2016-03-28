@@ -4,10 +4,13 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'splash#index'
-  get 'benchmark_reports/:id' => 'benchmark_reports#show'
+
+  #get 'benchmark_reports/:id' => 'benchmark_reports#show'
   get 'benchmark_reports' => 'benchmark_reports#index'
-  get 'benchmark_results/:id' => 'benchmark_results#show'
+
+  #get 'benchmark_results/:id' => 'benchmark_results#show'
   get 'benchmark_results' => 'benchmark_results#index'
+  get 'benchmark_results/compare' => 'benchmark_results#compare'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
