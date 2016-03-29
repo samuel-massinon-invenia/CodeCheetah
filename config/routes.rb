@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   #get 'benchmark_reports/:id' => 'benchmark_reports#show'
   get 'benchmark_reports' => 'benchmark_reports#index'
+  get 'benchmark_reports/compare' => 'benchmark_reports#compare'
 
   #get 'benchmark_results/:id' => 'benchmark_results#show'
   get 'benchmark_results' => 'benchmark_results#index'

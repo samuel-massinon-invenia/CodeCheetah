@@ -1,0 +1,38 @@
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+}
+th {
+    text-align: left;
+}
+table {
+    border-spacing: 5px;
+}
+</style>
+
+
+<h2>Benchmark Report Compare</h2>
+<p>
+    The time is now: <%= Time.now %>
+</p>
+<p>
+    Comparing the results of <%= @benchmark_report_1.id %> and <%= @benchmark_report_2.id %>
+</p>
+<table border="1" style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Benchmark of <%= @benchmark_report_1.id %></th>
+    <th>Benchmark of <%= @benchmark_report_2.id %></th>
+  </tr>
+<% @same_results.each do |same_result| %>
+    <tr>
+      <td><%= same_result.first.name %></td>
+      <td><%= same_result.first.score %></td>
+      <td><%= same_result.last.score %></td>
+    </tr>
+    <% end %>
+</table>
