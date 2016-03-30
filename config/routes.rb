@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   #api
   namespace :api do
     namespace :v1 do
-      resources :benchmark_reports, only: [:upload, :index]
+      post 'benchmark_reports/upload'
     end
   end
 
