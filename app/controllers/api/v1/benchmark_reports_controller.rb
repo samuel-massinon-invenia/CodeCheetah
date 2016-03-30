@@ -1,4 +1,5 @@
 class Api::V1::BenchmarkReportsController < ApplicationController
+    skip_before_action :verify_authenticity_token
     respond_to :json
 
     def index
@@ -7,9 +8,6 @@ class Api::V1::BenchmarkReportsController < ApplicationController
 
     def upload
         render text: "Thanks for sending a POST request with cURL! Payload: #{request.body.read}"
-
-        byebug
-
     end
 
 end
