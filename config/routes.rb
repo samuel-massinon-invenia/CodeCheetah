@@ -13,6 +13,13 @@ Rails.application.routes.draw do
   get 'benchmark_results' => 'benchmark_results#index'
   get 'benchmark_results/compare' => 'benchmark_results#compare'
 
+  #api
+  namespace :api do
+    namespace :v1 do
+      post 'benchmark_reports/upload'
+    end
+  end
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
