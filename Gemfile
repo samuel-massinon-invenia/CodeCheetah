@@ -21,7 +21,5 @@ group :development, :test do
   gem 'pry-byebug', '1.3.1',    require: false
   gem 'spring'
   gem 'rspec-rails', '~> 3.0'
+  gem 'yaml_db'
 end
-
-
-
